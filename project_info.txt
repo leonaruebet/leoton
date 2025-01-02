@@ -1,1 +1,46 @@
- 
+Project: Leoton Website
+Description: A multilingual business website built with Next.js and Tailwind CSS
+
+Tech Stack:
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- IBM Plex Font Family
+- next-intl (for internationalization)
+- next-themes (for dark/light mode)
+
+Features:
+- Multilingual support (Thai, English, Chinese)
+- Dark/Light mode toggle
+- Responsive design
+- Blue theme
+- Minimal and innovative design
+
+File Structure:
+/src
+  /app
+    /[locale]         # Dynamic routes for different languages
+      /about
+      /services
+      /contact
+      layout.tsx
+      page.tsx
+    layout.tsx
+  /components         # Reusable components
+    /ui              # UI components
+    /layout          # Layout components
+  /lib               # Utility functions
+    /i18n           # Internationalization setup
+    /themes         # Theme configuration
+  /styles           # Global styles
+  /types            # TypeScript types
+  /public           # Static assets
+    /images
+    /locales        # Translation files
+
+Color Scheme:
+- Primary Blue: #1E40AF
+- Secondary Blue: #3B82F6
+- Accent Blue: #60A5FA
+- Dark Mode Background: #0F172A
+- Light Mode Background: #F8FAFC 
